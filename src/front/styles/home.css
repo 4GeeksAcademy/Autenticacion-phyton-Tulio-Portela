@@ -1,7 +1,25 @@
-/*
-    home.css: This website contains selectors only used in home.css
+background {
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+}
+
+.text-center {
+    color: #2e8b57;
+}
+
+h1 {
+    color: #228b22;
+}
+
+.alert-info {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+}
+
+a {
+    color: #28a745;
+}
+
+a:hover {
+    color: #1e7e34;
+}

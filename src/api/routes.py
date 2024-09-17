@@ -72,3 +72,7 @@ def register_user():
     token = create_access_token(identity=user['id'])
 
     return jsonify({'token': token, 'user': user}), 201
+
+
+
+
